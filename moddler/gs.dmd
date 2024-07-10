@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="gs" id="A606F994-135C-3AD8-B36D-7732F8D6A1AD" version="3.5">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-06-05 20:42:35 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A606F994-135C-3AD8-B36D-7732F8D6A1AD</designId>
+</OSDM_Design>

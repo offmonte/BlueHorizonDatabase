@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B8AFB327-EDA3-0475-7EB4-02D1FA7A0BE6" containerWithKeyObject="C9191176-5D90-E84D-C8A1-8C0FE73A806D" localFKIndex="B8DCF737-17A0-28D9-3E4E-885381D56343" name="T_BH_USUARIO_T_BH_CREDENCIAL_FK">
+<createdBy>Absmi</createdBy>
+<createdTime>2024-06-05 21:27:11 UTC</createdTime>
+<generatorID>DDCF6503-8848-B286-5977-F66776CA0267</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<referredTableLongName>T_BH_CREDENCIAL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0EF144F4-EC2F-64C1-EA85-54520F4C63F8</referredTableID>
+<keyObject>BB9D0DD1-CB90-5358-78CE-18D28536F17C</keyObject>
+<referredKeyID>BB9D0DD1-CB90-5358-78CE-18D28536F17C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_credencial</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

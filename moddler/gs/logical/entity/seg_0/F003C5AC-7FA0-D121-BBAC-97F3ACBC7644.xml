@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F003C5AC-7FA0-D121-BBAC-97F3ACBC7644" name="T_BH_USUARIO">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-06-05 20:50:43 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<engineerTo>
+<item key="61B87354-FC33-035D-393B-AE2F49F7E251" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_usuario" id="EC452DE3-3D6B-3418-DB87-07A1C474DF1C">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-06-05 20:50:52 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<engineerTo>
+<item key="61B87354-FC33-035D-393B-AE2F49F7E251" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="st_denominacao" id="512754CB-087E-8A3D-12B1-3419CDA8AEFE">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-06-05 20:51:12 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<engineerTo>
+<item key="61B87354-FC33-035D-393B-AE2F49F7E251" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="3786F5E5-5208-BD21-1981-4CDD46E1BD46">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-06-05 20:52:16 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<engineerTo>
+<item key="61B87354-FC33-035D-393B-AE2F49F7E251" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_credencial" id="538A1E11-7177-323B-26D4-E847883D544F">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-06-05 20:59:50 UTC</createdTime>
+<generatorID>DDCF6503-8848-B286-5977-F66776CA0267</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<engineerTo>
+<item key="61B87354-FC33-035D-393B-AE2F49F7E251" value="true"/>
+</engineerTo>
+<referedAttribute>BF9A5FC8-ECA5-672A-B475-B9CE9E7E6E3A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="413F9ECA-9D5A-B4A4-8D84-FB830E9F4C73" name="T_BH_USUARIO PK">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-06-05 20:50:57 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<engineerTo>
+<item key="61B87354-FC33-035D-393B-AE2F49F7E251" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EC452DE3-3D6B-3418-DB87-07A1C474DF1C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

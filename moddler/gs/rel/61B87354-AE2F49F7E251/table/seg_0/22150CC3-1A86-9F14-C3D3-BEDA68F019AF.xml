@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="22150CC3-1A86-9F14-C3D3-BEDA68F019AF" name="T_BH_AGUA">
+<createdBy>Absmi</createdBy>
+<createdTime>2024-06-05 21:27:11 UTC</createdTime>
+<generatorID>BE4972AD-01B7-CF4F-DF52-61C347AD2C97</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_agua" id="0676DB7D-E216-F361-3B61-8871284D1608">
+<createdBy>Absmi</createdBy>
+<createdTime>2024-06-05 21:27:11 UTC</createdTime>
+<generatorID>BE9C4F56-0930-86EE-2D05-D1AC5D48A700</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_cidade" id="C209DC7C-3C0A-EA52-2582-065814A4D960">
+<createdBy>Absmi</createdBy>
+<createdTime>2024-06-05 21:27:11 UTC</createdTime>
+<generatorID>6A2B7244-8141-E929-FCD4-C3F1A2B73BE1</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_ph" id="890292C9-686C-4B83-5AA3-DE35B8FC015D">
+<createdBy>Absmi</createdBy>
+<createdTime>2024-06-05 21:27:11 UTC</createdTime>
+<generatorID>47D95EF0-45E5-969D-2AB5-65FA94D5F084</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_oxigenio" id="95F130E1-A6C7-2583-366E-10862ADD5ACF">
+<createdBy>Absmi</createdBy>
+<createdTime>2024-06-05 21:27:11 UTC</createdTime>
+<generatorID>7F6415C8-F269-5F60-257A-614EA6043DEA</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_nitrato" id="3D0E376C-DBF2-6C51-E6C6-9890BAE4D21E">
+<createdBy>Absmi</createdBy>
+<createdTime>2024-06-05 21:27:11 UTC</createdTime>
+<generatorID>F6F71F0B-155C-A752-A402-00CEE8142892</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_fosfato" id="D43F0AE0-AFCD-D570-E4C4-939BB91981DD">
+<createdBy>Absmi</createdBy>
+<createdTime>2024-06-05 21:27:11 UTC</createdTime>
+<generatorID>C323C2AB-D807-E44B-B68A-D0F187BA4769</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_microplastico" id="E7E7C309-0FC1-1CEE-8B0A-58ED534D2E04">
+<createdBy>Absmi</createdBy>
+<createdTime>2024-06-05 21:27:11 UTC</createdTime>
+<generatorID>8039A4D8-FA41-4896-D695-3A7C988563F2</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_salinidade" id="91E853B7-7103-962F-9F8A-A3C6E80F0C97">
+<createdBy>Absmi</createdBy>
+<createdTime>2024-06-05 21:27:11 UTC</createdTime>
+<generatorID>CD9D62D2-B68E-531D-1801-7C260E685B91</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="st_qualidade_agua" id="D37B7723-0E2E-E933-769C-7EF2CEE8FBEB">
+<createdBy>Absmi</createdBy>
+<createdTime>2024-06-05 21:27:11 UTC</createdTime>
+<generatorID>18090E08-BC53-56CF-4667-92BCD226F727</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_BH_POTENCIAL_id_potencial" id="443EDBBC-7702-9C8D-E4DA-195E5FE9270E">
+<createdBy>Absmi</createdBy>
+<createdTime>2024-06-05 21:27:11 UTC</createdTime>
+<generatorID>260442E3-7A65-37FD-FC70-F99E463F7675</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1DDB03FA-4876-B910-A01B-E897B388225A" referredColumn="64795EE5-6E61-B534-8979-747677ACBB17"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E0ECD21E-76AE-DD41-32E1-2B6F91BEDFE4" name="T_BH_AGUA_PK">
+<createdBy>Absmi</createdBy>
+<createdTime>2024-06-05 21:27:11 UTC</createdTime>
+<generatorID>FF306F55-287A-9334-FEEB-FD7F3CF07139</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0676DB7D-E216-F361-3B61-8871284D1608"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A77D61CA-8FFF-BF82-1B2F-C1A92F778E53" name="T_BH_AGUA_T_BH_POTENCIAL_FK">
+<createdBy>Absmi</createdBy>
+<createdTime>2024-06-05 21:27:11 UTC</createdTime>
+<generatorID>4F6E6D48-2D26-4C6F-1BD7-7DD655BA6868</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="443EDBBC-7702-9C8D-E4DA-195E5FE9270E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

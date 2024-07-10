@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C9191176-5D90-E84D-C8A1-8C0FE73A806D" name="T_BH_USUARIO">
+<createdBy>Absmi</createdBy>
+<createdTime>2024-06-05 21:27:11 UTC</createdTime>
+<generatorID>F003C5AC-7FA0-D121-BBAC-97F3ACBC7644</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_usuario" id="2D973351-2740-8667-BC83-8B8A8FE906B8">
+<createdBy>Absmi</createdBy>
+<createdTime>2024-06-05 21:27:11 UTC</createdTime>
+<generatorID>EC452DE3-3D6B-3418-DB87-07A1C474DF1C</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="st_denominacao" id="C553A41D-4148-A201-B3A6-565489F90A46">
+<createdBy>Absmi</createdBy>
+<createdTime>2024-06-05 21:27:11 UTC</createdTime>
+<generatorID>512754CB-087E-8A3D-12B1-3419CDA8AEFE</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nascimento" id="80E78F9B-2C28-96A3-D6BB-9B42AE5ABA71">
+<createdBy>Absmi</createdBy>
+<createdTime>2024-06-05 21:27:11 UTC</createdTime>
+<generatorID>3786F5E5-5208-BD21-1981-4CDD46E1BD46</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_BH_CREDENCIAL_id_credencial" id="459DE390-4CA4-8334-E534-02C1104FD8F5">
+<createdBy>Absmi</createdBy>
+<createdTime>2024-06-05 21:27:11 UTC</createdTime>
+<generatorID>538A1E11-7177-323B-26D4-E847883D544F</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B8AFB327-EDA3-0475-7EB4-02D1FA7A0BE6" referredColumn="53876D13-D6C8-1D37-09EF-8BEE0B65215B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="82FD35E9-2934-0CCE-58ED-350ACD0952A4" name="T_BH_USUARIO_PK">
+<createdBy>Absmi</createdBy>
+<createdTime>2024-06-05 21:27:11 UTC</createdTime>
+<generatorID>413F9ECA-9D5A-B4A4-8D84-FB830E9F4C73</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D973351-2740-8667-BC83-8B8A8FE906B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6E102CAD-D58C-24A2-81AE-8E7F615BDBDF" name="T_BH_USUARIO__IDX">
+<createdBy>Absmi</createdBy>
+<createdTime>2024-06-05 21:27:11 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>DDCF6503-8848-B286-5977-F66776CA0267</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="459DE390-4CA4-8334-E534-02C1104FD8F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B8DCF737-17A0-28D9-3E4E-885381D56343" name="T_BH_USUARIO_T_BH_CREDENCIAL_FK">
+<createdBy>Absmi</createdBy>
+<createdTime>2024-06-05 21:27:11 UTC</createdTime>
+<generatorID>DDCF6503-8848-B286-5977-F66776CA0267</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="459DE390-4CA4-8334-E534-02C1104FD8F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

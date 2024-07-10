@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BE4972AD-01B7-CF4F-DF52-61C347AD2C97" name="T_BH_AGUA">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-06-05 20:43:15 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<engineerTo>
+<item key="61B87354-FC33-035D-393B-AE2F49F7E251" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_agua" id="BE9C4F56-0930-86EE-2D05-D1AC5D48A700">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-06-05 20:43:25 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<engineerTo>
+<item key="61B87354-FC33-035D-393B-AE2F49F7E251" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_cidade" id="6A2B7244-8141-E929-FCD4-C3F1A2B73BE1">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-06-05 20:43:35 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<engineerTo>
+<item key="61B87354-FC33-035D-393B-AE2F49F7E251" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_ph" id="47D95EF0-45E5-969D-2AB5-65FA94D5F084">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-06-05 20:43:52 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<engineerTo>
+<item key="61B87354-FC33-035D-393B-AE2F49F7E251" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_oxigenio" id="7F6415C8-F269-5F60-257A-614EA6043DEA">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-06-05 20:45:48 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<engineerTo>
+<item key="61B87354-FC33-035D-393B-AE2F49F7E251" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_nitrato" id="F6F71F0B-155C-A752-A402-00CEE8142892">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-06-05 20:46:31 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<engineerTo>
+<item key="61B87354-FC33-035D-393B-AE2F49F7E251" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_fosfato" id="C323C2AB-D807-E44B-B68A-D0F187BA4769">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-06-05 20:47:05 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<engineerTo>
+<item key="61B87354-FC33-035D-393B-AE2F49F7E251" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_microplastico" id="8039A4D8-FA41-4896-D695-3A7C988563F2">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-06-05 20:47:16 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<engineerTo>
+<item key="61B87354-FC33-035D-393B-AE2F49F7E251" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_salinidade" id="CD9D62D2-B68E-531D-1801-7C260E685B91">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-06-05 20:47:35 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<engineerTo>
+<item key="61B87354-FC33-035D-393B-AE2F49F7E251" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="st_qualidade_agua" id="18090E08-BC53-56CF-4667-92BCD226F727">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-06-05 20:47:48 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<engineerTo>
+<item key="61B87354-FC33-035D-393B-AE2F49F7E251" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_potencial" id="260442E3-7A65-37FD-FC70-F99E463F7675">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-06-05 21:06:50 UTC</createdTime>
+<generatorID>4F6E6D48-2D26-4C6F-1BD7-7DD655BA6868</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<engineerTo>
+<item key="61B87354-FC33-035D-393B-AE2F49F7E251" value="true"/>
+</engineerTo>
+<referedAttribute>1D35C33F-B466-86FA-1DF4-D8CB28B697CD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FF306F55-287A-9334-FEEB-FD7F3CF07139" name="T_BH_AGUA PK">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-06-05 20:43:30 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<engineerTo>
+<item key="61B87354-FC33-035D-393B-AE2F49F7E251" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BE9C4F56-0930-86EE-2D05-D1AC5D48A700</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

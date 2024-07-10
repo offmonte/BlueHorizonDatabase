@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CECE74E0-482D-0C17-AFBA-A99FA62F2557" name="T_BH_POTENCIAL">
+<createdBy>Absmi</createdBy>
+<createdTime>2024-06-05 21:27:11 UTC</createdTime>
+<generatorID>7A4BD255-2427-CF1B-0592-41E4463A0C05</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_potencial" id="64795EE5-6E61-B534-8979-747677ACBB17">
+<createdBy>Absmi</createdBy>
+<createdTime>2024-06-05 21:27:11 UTC</createdTime>
+<generatorID>1D35C33F-B466-86FA-1DF4-D8CB28B697CD</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_cidade" id="0B4D48E3-17A8-735A-9A6D-D0114446E060">
+<createdBy>Absmi</createdBy>
+<createdTime>2024-06-05 21:27:11 UTC</createdTime>
+<generatorID>773C7B8F-660C-7FB0-9B6A-033387841693</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_escala" id="9BF80FD9-12FC-0526-9F61-0B3E4152D7EC">
+<createdBy>Absmi</createdBy>
+<createdTime>2024-06-05 21:27:11 UTC</createdTime>
+<generatorID>BFAD1475-BC03-4F63-FF8F-64D2891CBF93</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_data" id="C5D3B2AC-34AF-D43B-A987-1C087777E444">
+<createdBy>Absmi</createdBy>
+<createdTime>2024-06-05 21:27:11 UTC</createdTime>
+<generatorID>5A85B5C5-AA8E-2E24-B19F-712795987F55</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7A602947-FA9C-4169-8F92-D9143ECD98DE" name="T_BH_POTENCIAL_PK">
+<createdBy>Absmi</createdBy>
+<createdTime>2024-06-05 21:27:11 UTC</createdTime>
+<generatorID>4253CA29-D6B0-FEC6-08AB-6F4B904A4ED5</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64795EE5-6E61-B534-8979-747677ACBB17"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

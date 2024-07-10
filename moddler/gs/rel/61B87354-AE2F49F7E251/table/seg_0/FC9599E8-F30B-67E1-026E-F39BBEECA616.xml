@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FC9599E8-F30B-67E1-026E-F39BBEECA616" name="T_BH_CHECAGEM">
+<createdBy>Absmi</createdBy>
+<createdTime>2024-06-05 21:27:11 UTC</createdTime>
+<generatorID>C5D2FB3A-5FC0-7880-0D4E-EDF0748F5045</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_checagem" id="AFDB6B89-90B7-AF22-0E22-A64E9D48E975">
+<createdBy>Absmi</createdBy>
+<createdTime>2024-06-05 21:27:11 UTC</createdTime>
+<generatorID>D83DD8A6-2C09-4CE4-B35B-BA649D30FA98</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_data" id="312EFD00-9499-168E-CD7D-B551CAA57289">
+<createdBy>Absmi</createdBy>
+<createdTime>2024-06-05 21:27:11 UTC</createdTime>
+<generatorID>8C511AC0-4B24-1542-BCAC-B5FDE90C7020</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_BH_USUARIO_id_usuario" id="DCBC5047-7136-3B8D-2740-FE8648A619D0">
+<createdBy>Absmi</createdBy>
+<createdTime>2024-06-05 21:27:11 UTC</createdTime>
+<generatorID>8FD5FCE8-4087-8219-9453-2264FE284679</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D0E4B8A4-77B8-F02D-03BA-9E7103091F4F" referredColumn="2D973351-2740-8667-BC83-8B8A8FE906B8"/>
+</associations>
+</Column>
+<Column name="T_BH_AGUA_id_agua" id="3E046691-7CF5-9DA0-6B36-8D53C876D562">
+<createdBy>Absmi</createdBy>
+<createdTime>2024-06-05 21:27:11 UTC</createdTime>
+<generatorID>E27D8B9E-7ADF-5512-D2EA-75742FFD9759</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="69355457-12BC-A390-75C8-460DC2E619ED" referredColumn="0676DB7D-E216-F361-3B61-8871284D1608"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3D4E7F0D-18F0-B63D-6FD9-E235DCAE98DF" name="T_BH_CHECAGEM_PK">
+<createdBy>Absmi</createdBy>
+<createdTime>2024-06-05 21:27:11 UTC</createdTime>
+<generatorID>72D19081-2155-33F4-A474-80450AE1FDF6</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AFDB6B89-90B7-AF22-0E22-A64E9D48E975"/>
+<colUsage columnID="DCBC5047-7136-3B8D-2740-FE8648A619D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC59375E-B731-8632-E399-58F57042B13F" name="T_BH_CHECAGEM_T_BH_USUARIO_FK">
+<createdBy>Absmi</createdBy>
+<createdTime>2024-06-05 21:27:11 UTC</createdTime>
+<generatorID>73E3C505-9E8E-3B1A-E8FC-9E431F43BB27</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCBC5047-7136-3B8D-2740-FE8648A619D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="29525625-AE3E-7BFD-FAEB-15A8A1BBC563" name="T_BH_CHECAGEM_T_BH_AGUA_FK">
+<createdBy>Absmi</createdBy>
+<createdTime>2024-06-05 21:27:11 UTC</createdTime>
+<generatorID>D5CF98B0-B0C2-B1B0-14E9-1F1EDB7E2FFD</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E046691-7CF5-9DA0-6B36-8D53C876D562"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

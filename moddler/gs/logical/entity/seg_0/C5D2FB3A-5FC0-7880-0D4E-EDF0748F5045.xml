@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C5D2FB3A-5FC0-7880-0D4E-EDF0748F5045" name="T_BH_CHECAGEM">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-06-05 21:10:45 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<engineerTo>
+<item key="61B87354-FC33-035D-393B-AE2F49F7E251" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_checagem" id="D83DD8A6-2C09-4CE4-B35B-BA649D30FA98">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-06-05 21:11:01 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<engineerTo>
+<item key="61B87354-FC33-035D-393B-AE2F49F7E251" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_data" id="8C511AC0-4B24-1542-BCAC-B5FDE90C7020">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-06-05 21:11:16 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<engineerTo>
+<item key="61B87354-FC33-035D-393B-AE2F49F7E251" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="8FD5FCE8-4087-8219-9453-2264FE284679">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-06-05 21:14:03 UTC</createdTime>
+<generatorID>73E3C505-9E8E-3B1A-E8FC-9E431F43BB27</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<engineerTo>
+<item key="61B87354-FC33-035D-393B-AE2F49F7E251" value="true"/>
+</engineerTo>
+<referedAttribute>EC452DE3-3D6B-3418-DB87-07A1C474DF1C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_agua" id="E27D8B9E-7ADF-5512-D2EA-75742FFD9759">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-06-05 21:14:17 UTC</createdTime>
+<generatorID>D5CF98B0-B0C2-B1B0-14E9-1F1EDB7E2FFD</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<engineerTo>
+<item key="61B87354-FC33-035D-393B-AE2F49F7E251" value="true"/>
+</engineerTo>
+<referedAttribute>BE9C4F56-0930-86EE-2D05-D1AC5D48A700</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="72D19081-2155-33F4-A474-80450AE1FDF6" name="T_BH_CHECAGEM PK">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-06-05 21:11:15 UTC</createdTime>
+<ownerDesignName>gs</ownerDesignName>
+<engineerTo>
+<item key="61B87354-FC33-035D-393B-AE2F49F7E251" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D83DD8A6-2C09-4CE4-B35B-BA649D30FA98</attributeRef>
+<attributeRef>8FD5FCE8-4087-8219-9453-2264FE284679</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

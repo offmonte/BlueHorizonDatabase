@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1DDB03FA-4876-B910-A01B-E897B388225A" containerWithKeyObject="22150CC3-1A86-9F14-C3D3-BEDA68F019AF" localFKIndex="A77D61CA-8FFF-BF82-1B2F-C1A92F778E53" name="T_BH_AGUA_T_BH_POTENCIAL_FK">
+<createdBy>Absmi</createdBy>
+<createdTime>2024-06-05 21:27:11 UTC</createdTime>
+<generatorID>4F6E6D48-2D26-4C6F-1BD7-7DD655BA6868</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<referredTableLongName>T_BH_POTENCIAL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CECE74E0-482D-0C17-AFBA-A99FA62F2557</referredTableID>
+<keyObject>7A602947-FA9C-4169-8F92-D9143ECD98DE</keyObject>
+<referredKeyID>7A602947-FA9C-4169-8F92-D9143ECD98DE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_potencial</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

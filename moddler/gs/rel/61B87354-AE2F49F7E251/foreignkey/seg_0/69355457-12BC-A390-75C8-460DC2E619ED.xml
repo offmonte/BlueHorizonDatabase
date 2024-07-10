@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="69355457-12BC-A390-75C8-460DC2E619ED" containerWithKeyObject="FC9599E8-F30B-67E1-026E-F39BBEECA616" localFKIndex="29525625-AE3E-7BFD-FAEB-15A8A1BBC563" name="T_BH_CHECAGEM_T_BH_AGUA_FK">
+<createdBy>Absmi</createdBy>
+<createdTime>2024-06-05 21:27:11 UTC</createdTime>
+<generatorID>D5CF98B0-B0C2-B1B0-14E9-1F1EDB7E2FFD</generatorID>
+<ownerDesignName>gs</ownerDesignName>
+<referredTableLongName>T_BH_AGUA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>22150CC3-1A86-9F14-C3D3-BEDA68F019AF</referredTableID>
+<keyObject>E0ECD21E-76AE-DD41-32E1-2B6F91BEDFE4</keyObject>
+<referredKeyID>E0ECD21E-76AE-DD41-32E1-2B6F91BEDFE4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_agua</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
