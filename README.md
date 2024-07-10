@@ -23,7 +23,11 @@ As melhorias na qualidade da água podem resultar em uma série de benefícios, 
 ## Grupo
 
 Lucas Monte Verde - RM551604 - 2TDSA
+
 Daniel Alves de Souza - RM552310 - 2TDSB
+
 Carlos Eduardo Guedes Alcoforado - RM94787 - 2TDSPV
+
 Luigi Exposito Uchiyama - RM99520 - 2TDSPG
+
 João Vito Santiago - RM86293 - 2TDSA
